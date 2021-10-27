@@ -1,5 +1,5 @@
 from Logic.CRUD import adaugaObiect, stergeObiect, modificaObiect, getById
-from Domain.obiect import getId, getNume, getDescriere, getPret, getLocatie
+from Domain.obiect2 import getId, getNume, getDescriere, getPret, getLocatie
 
 
 def testAdaugaObiect ():

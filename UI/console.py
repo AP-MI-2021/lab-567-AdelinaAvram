@@ -1,6 +1,6 @@
 from Logic.CRUD import adaugaObiect, stergeObiect, modificaObiect
 from Logic.functionalitate1 import mutareLocatie
-from Domain.obiect import toString
+from Domain.obiect2 import toString
 
 def printMenu():
     print ("1. Adaugare obiect")

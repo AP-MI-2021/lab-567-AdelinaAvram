@@ -1,6 +1,6 @@
 from Logic.functionalitate1 import mutareLocatie
 from Logic.CRUD import adaugaObiect, getById
-from Domain.obiect import getId, getNume, getDescriere, getPret, getLocatie
+from Domain.obiect2 import getId, getNume, getDescriere, getPret, getLocatie
 
 def testMutareLocatie():
     lista = []
