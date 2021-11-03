@@ -1,4 +1,4 @@
-from Domain.obiect2 import creeazaObiect, getId, getNume, getDescriere, getPret, getLocatie
+from Domain.obiect2 import creeazaObiect, getId, getNume, getDescriere, getPret
 
 def mutareLocatie (lista, locatie, id):
     '''
