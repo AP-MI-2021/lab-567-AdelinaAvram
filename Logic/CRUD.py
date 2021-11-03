@@ -11,6 +11,10 @@ def adaugaObiect(id, nume, descriere, pret, locatie, lista):
     :param lista: lista de obiecte
     :return: lista continand vechile elemente si noul obiect
     '''
+    if getById(id, lista) is not None:
+        raise ValueError("Id-ul exista deja!")
+    if len(locatie)!=4:
+        raise ValueError ("Locatia nu are 4 caractere!")
     obiect = creeazaObiect(id, nume, descriere, pret, locatie)
     return lista + [obiect]
 
